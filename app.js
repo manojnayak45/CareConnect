@@ -14,7 +14,7 @@ const app = express();
 //config({ path: "./.env" });
 config();
 
-const allowedOrigins = ["http://localhost:5173","https://careconnect2.netlify.app"];
+const allowedOrigins = ["https://careconnect2.netlify.app"];
 
 const corsOptions = {
   origin: function (origin, callback) {
